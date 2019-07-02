@@ -1,0 +1,47 @@
+/* Project  
+  Author: DA
+  Date: 
+  Filename: styles.css */
+
+body, html {
+
+  height: 100%;
+  margin: auto;
+}
+
+.bgimg {
+  background-image: url('water.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: cover;
+  background-size: cover;
+  position: absolute;
+  color: pink;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
